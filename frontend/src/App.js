@@ -8,6 +8,7 @@ function App() {
   useEffect(() => {
     // mount 되는 시점에 호출되는 이벤트
     // M.pop.alert('hello world')
+    console.log("env",process.env.REACT_APP_API_URL);
     return () => {
       // unmount 되는 시점에 호출되는 이벤트
       
